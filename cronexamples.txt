@@ -1,0 +1,14 @@
+#Turn on Clock for Sunday Service
+50 7 * * 0 sh /scripts/on.sh
+#Set time values for 9AM service
+54 8 * * 0 sh /scripts/9AMService.sh
+#Refresh for 9 Sunday Service
+55 8 * * 0 sh /scripts/refresh.sh
+#Set time code for 1045 Sunday Service
+39 10 * * 0 sh /scripts/1045AMService.sh
+#Refresh for 1045 Sunday Service
+40 10 * * 0 sh /scripts/refresh.sh
+#Turn off at 1230PM on Sunday
+30 12 * * 0 sh /scripts/off.sh
+#Turn off each night at 1030PM
+30 22 * * * sh /scripts/off.sh
