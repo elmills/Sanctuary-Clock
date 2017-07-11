@@ -31,4 +31,4 @@ Going from Gray to Green for 5 minute warning <br />
 ![Timer Goes to Warning](https://www.elmills.net/img/graytogreen.gif)
 <br />
 Going from Green to Red to indicate going over time.<br />
-![Timer Expires](https://www.elmills.net/img/giphy.gif)
+![Timer Expires](https://www.elmills.net/img/test.gif)
